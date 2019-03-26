@@ -13,9 +13,6 @@ sudo apt-get purge --auto-remove transmission-gtk <<< "Y" #Transmission
 sudo apt-get purge --auto-remove simple-scan <<< "Y" #Simple Scan
 
 # Hide "Logout", "Reboot" & "Shutdown" buttons from GNOME shell app list
-# mkdir -p ~/.local/share/applications/
-# cp /usr/share/applications/{logout,reboot,shutdown}.desktop ~/.local/share/applications/
-# echo "NoDisplay=true" | tee -a ~/.local/share/applications/{logout,reboot,shutdown}.desktop > /dev/null
 sudo apt purge session-shortcuts <<< "Y" # completely delete them
 
 # Firefox
@@ -28,7 +25,6 @@ sudo rm -r usr/lib/firefox-addons/
 sudo apt-get purge --auto-remove rhythmbox <<< "Y" #Rhythmbox
 sudo apt-get purge --auto-remove thunderbird <<< "Y" #Thunderbird
 sudo apt-get remove --purge libreoffice* <<< "Y" #LibreOffice
-# sudo apt remove gnome-calculator <<< "Y" #one of two calculators
 
 sudo apt-get clean
 sudo apt-get autoremove
@@ -47,8 +43,9 @@ sudo apt-get install python-numpy python-scipy python-matplotlib ipython\
 	jupyter-notebook python-pandas python-sympy python-nose <<< "Y" #Python Science Package
 
 sudo apt install git <<< "Y" #git
-# sudo apt install curl <<< "Y" #curl
+sudo apt install curl <<< "Y" #curl
 sudo apt-get install unity-tweak-tool <<< "Y" #Unity Tweak Tools
+sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf #macOS themes (https://github.com/vinceliuice/Mojave-gtk-theme)
 curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash #Fonts
 
 # Move to the left ‘Min, Max, Close’ buttons
