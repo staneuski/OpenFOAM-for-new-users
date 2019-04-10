@@ -52,7 +52,7 @@ sudo apt-get install gnome-tweak-tool <<< "Y" #Gnome Tweak Tools
 sudo apt-get install unity-tweak-tool <<< "Y" #Unity Tweak Tools
 sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf #gtk2 for themes
 git clone https://github.com/vinceliuice/Mojave-gtk-theme $HOME/./themes #macOS themes (https://github.com/vinceliuice/Mojave-gtk-theme)
-cd ./themes && install.sh
+cd ./themes && ./install.sh
 curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash #Fonts
 
 # Move to the left ‘Min, Max, Close’ buttons
