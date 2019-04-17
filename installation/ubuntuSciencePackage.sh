@@ -43,7 +43,7 @@ sudo apt-get install samba <<< "Y"
 sudo smbpasswd -a user
 sudo chown stas /opt <<< "1950"
 
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython\
+sudo apt-get install gnuplot python-numpy python-scipy python-matplotlib ipython\
 	jupyter-notebook python-pandas python-sympy python-nose <<< "Y" #Python Science Package
 
 sudo apt install git <<< "Y" #git
