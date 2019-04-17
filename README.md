@@ -12,12 +12,12 @@ sudo apt install build-essential dkms linux-headers-$(uname -r)
 **To install ubuntu science package with OpenFOAM 6**
 
 ```bash
-bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/toIntstall/ubuntuSciencePackage.sh)"
-bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/toIntstall/6Install.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/ubuntuSciencePackage.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/6Install.sh)"
 ```
 
 **To install ubuntu science package with OpenFOAM-extend-4.0**
 ```bash
-bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/toIntstall/ubuntuSciencePackage.sh)"
-bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/toIntstall/ext-4Install.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/ubuntuSciencePackage.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/ext-4Install.sh)"
 ```
