@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build    : 4.0-268bb07d15d8
 Exec     : setSet -batch setSet.batch
-Date     : Apr 17 2019
-Time     : 18:03:55
-Host     : ubuntu
-PID      : 1967
-CtrlDict : "/media/psf/HDD/OpenFOAM/SIEMENS/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator/system/controlDict"
-Case     : /media/psf/HDD/OpenFOAM/SIEMENS/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator
+Date     : Apr 19 2019
+Time     : 00:51:04
+Host     : ubuntu-14
+PID      : 20223
+CtrlDict : "/home/stas/foam/foam-extend-4.0/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator/system/controlDict"
+Case     : /home/stas/foam/foam-extend-4.0/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator
 nProcs   : 1
 SigFpe   : Enabling floating point exception trapping (FOAM_SIGFPE).
 

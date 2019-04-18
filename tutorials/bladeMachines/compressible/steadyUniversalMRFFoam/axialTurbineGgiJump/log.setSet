@@ -1,0 +1,82 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.0                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build    : 4.0-268bb07d15d8
+Exec     : setSet -batch setBatchGgi
+Date     : Apr 19 2019
+Time     : 01:54:05
+Host     : ubuntu-14
+PID      : 24705
+CtrlDict : "/home/stas/foam/foam-extend-4.0/tutorials/compressible/steadyUniversalMRFFoam/axialTurbineGgiJump/system/controlDict"
+Case     : /home/stas/foam/foam-extend-4.0/tutorials/compressible/steadyUniversalMRFFoam/axialTurbineGgiJump
+nProcs   : 1
+SigFpe   : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Time:0  cells:4300  faces:14060  points:5566  patches:19  bb:(0.009369065807 -0.09822872504 -0.14) (0.1 0.09048270519 0.29)
+cellSets:
+	rotor	size:1400
+
+Reading commands from file "setBatchGgi"
+Please type 'help', 'quit' or a set command after prompt.
+Doing:"faceSet RUCYCLIC1Zone new patchToFace RUCYCLIC1"
+    Set:RUCYCLIC1Zone  Size:0  Action:new
+    Adding all faces of patch RUCYCLIC1 ...
+    Found matching patch RUCYCLIC1 with 40 faces.
+    Writing RUCYCLIC1Zone (size 40) to "constant/polyMesh/sets/RUCYCLIC1Zone" and to vtk file "VTK/RUCYCLIC1Zone/RUCYCLIC1Zone_1.vtk"
+
+Doing:"faceSet RUCYCLIC2Zone new patchToFace RUCYCLIC2"
+    Set:RUCYCLIC2Zone  Size:0  Action:new
+    Adding all faces of patch RUCYCLIC2 ...
+    Found matching patch RUCYCLIC2 with 40 faces.
+    Writing RUCYCLIC2Zone (size 40) to "constant/polyMesh/sets/RUCYCLIC2Zone" and to vtk file "VTK/RUCYCLIC2Zone/RUCYCLIC2Zone_1.vtk"
+
+Doing:"faceSet DTCYCLIC1Zone new patchToFace DTCYCLIC1"
+    Set:DTCYCLIC1Zone  Size:0  Action:new
+    Adding all faces of patch DTCYCLIC1 ...
+    Found matching patch DTCYCLIC1 with 70 faces.
+    Writing DTCYCLIC1Zone (size 70) to "constant/polyMesh/sets/DTCYCLIC1Zone" and to vtk file "VTK/DTCYCLIC1Zone/DTCYCLIC1Zone_1.vtk"
+
+Doing:"faceSet DTCYCLIC2Zone new patchToFace DTCYCLIC2"
+    Set:DTCYCLIC2Zone  Size:0  Action:new
+    Adding all faces of patch DTCYCLIC2 ...
+    Found matching patch DTCYCLIC2 with 70 faces.
+    Writing DTCYCLIC2Zone (size 70) to "constant/polyMesh/sets/DTCYCLIC2Zone" and to vtk file "VTK/DTCYCLIC2Zone/DTCYCLIC2Zone_1.vtk"
+
+Doing:"faceSet GVOUTLETZone new patchToFace GVOUTLET"
+    Set:GVOUTLETZone  Size:0  Action:new
+    Adding all faces of patch GVOUTLET ...
+    Found matching patch GVOUTLET with 100 faces.
+    Writing GVOUTLETZone (size 100) to "constant/polyMesh/sets/GVOUTLETZone" and to vtk file "VTK/GVOUTLETZone/GVOUTLETZone_1.vtk"
+
+Doing:"faceSet RUINLETZone new patchToFace RUINLET"
+    Set:RUINLETZone  Size:0  Action:new
+    Adding all faces of patch RUINLET ...
+    Found matching patch RUINLET with 100 faces.
+    Writing RUINLETZone (size 100) to "constant/polyMesh/sets/RUINLETZone" and to vtk file "VTK/RUINLETZone/RUINLETZone_1.vtk"
+
+Doing:"faceSet RUOUTLETZone new patchToFace RUOUTLET"
+    Set:RUOUTLETZone  Size:0  Action:new
+    Adding all faces of patch RUOUTLET ...
+    Found matching patch RUOUTLET with 100 faces.
+    Writing RUOUTLETZone (size 100) to "constant/polyMesh/sets/RUOUTLETZone" and to vtk file "VTK/RUOUTLETZone/RUOUTLETZone_1.vtk"
+
+Doing:"faceSet DTINLETZone new patchToFace DTINLET"
+    Set:DTINLETZone  Size:0  Action:new
+    Adding all faces of patch DTINLET ...
+    Found matching patch DTINLET with 100 faces.
+    Writing DTINLETZone (size 100) to "constant/polyMesh/sets/DTINLETZone" and to vtk file "VTK/DTINLETZone/DTINLETZone_1.vtk"
+
+Doing:"quit"
+Quitting ...
+
+End
+
