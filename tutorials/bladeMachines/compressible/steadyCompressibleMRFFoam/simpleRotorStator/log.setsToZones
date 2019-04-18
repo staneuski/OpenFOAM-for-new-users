@@ -1,0 +1,35 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.0                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build    : 4.0-268bb07d15d8
+Exec     : setsToZones
+Date     : Apr 17 2019
+Time     : 19:50:53
+Host     : ubuntu
+PID      : 20709
+CtrlDict : "/media/psf/HDD/OpenFOAM/bladeMachines/tutorials/compressible/steadyCompressibleMRFFoam/simpleRotorStator/system/controlDict"
+Case     : /media/psf/HDD/OpenFOAM/bladeMachines/tutorials/compressible/steadyCompressibleMRFFoam/simpleRotorStator
+nProcs   : 1
+SigFpe   : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Searched : "constant/polyMesh/sets"
+Found    : 
+1
+(
+rotor
+)
+
+
+Adding set rotor as a cellZone.
+Writing mesh.
+
+End

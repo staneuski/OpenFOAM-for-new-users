@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.0                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build    : 4.0-268bb07d15d8
+Exec     : setSet -batch setSet.batch
+Date     : Apr 17 2019
+Time     : 18:03:55
+Host     : ubuntu
+PID      : 1967
+CtrlDict : "/media/psf/HDD/OpenFOAM/SIEMENS/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator/system/controlDict"
+Case     : /media/psf/HDD/OpenFOAM/SIEMENS/tutorials/compressible/steadyCompressibleMRFFoam/bentRotorStator
+nProcs   : 1
+SigFpe   : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Time:0  cells:34480  faces:109578  points:40876  patches:9  bb:(0 0.00866025 -0.025) (0.2 0.0499988 0.025)
+
+Reading commands from file "setSet.batch"
+Please type 'help', 'quit' or a set command after prompt.
+Doing:"cellSet rotor new boxToCell (0.039 -10 -10) (0.0723 10 10)"
+    Set:rotor  Size:0  Action:new
+    Adding cells with center within box (0.039 -10 -10) (0.0723 10 10)
+    Writing rotor (size 8960) to "constant/polyMesh/sets/rotor" and to vtk file "VTK/rotor/rotor_1.vtk"
+
+Doing:"quit"
+Quitting ...
+
+End
+

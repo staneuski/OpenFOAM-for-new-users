@@ -1,0 +1,143 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.0                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build    : 4.0-268bb07d15d8
+Exec     : blockMesh
+Date     : Apr 17 2019
+Time     : 19:50:51
+Host     : ubuntu
+PID      : 20704
+CtrlDict : "/media/psf/HDD/OpenFOAM/bladeMachines/tutorials/compressible/steadyCompressibleMRFFoam/simpleRotorStator/system/controlDict"
+Case     : /media/psf/HDD/OpenFOAM/bladeMachines/tutorials/compressible/steadyCompressibleMRFFoam/simpleRotorStator
+nProcs   : 1
+SigFpe   : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Creating block mesh from
+    "/media/psf/HDD/OpenFOAM/bladeMachines/tutorials/compressible/steadyCompressibleMRFFoam/simpleRotorStator/constant/polyMesh/blockMeshDict"
+
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Reading patches section
+
+Creating block mesh topology
+
+Reading physicalType from existing boundary file
+
+Default patch type set to empty
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 14
+		Number of boundary faces : 50
+		Number of defined boundary faces : 50
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.01
+    Block 0 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.004 .. 0.004
+        k : 0.000916694 .. 0.00366678
+
+    Block 1 cell size :
+        i : 0.000435779 .. 0.000435779
+        j : 0.00398478 .. 0.00398478
+        k : 0.000916694 .. 0.00366678
+
+    Block 2 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.00398478 .. 0.00398478
+        k : 0.000916694 .. 0.00366678
+
+    Block 3 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.004 .. 0.004
+        k : 0.00075 .. 0.00075
+
+    Block 4 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.00398478 .. 0.00398478
+        k : 0.00075 .. 0.00075
+
+    Block 5 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.004 .. 0.004
+        k : 0.000714286 .. 0.000714286
+
+    Block 6 cell size :
+        i : 0.000435779 .. 0.000435779
+        j : 0.00398478 .. 0.00398478
+        k : 0.000714286 .. 0.000714286
+
+    Block 7 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.00398478 .. 0.00398478
+        k : 0.000714286 .. 0.000714286
+
+    Block 8 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.004 .. 0.004
+        k : 0.000875 .. 0.000875
+
+    Block 9 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.00398478 .. 0.00398478
+        k : 0.000875 .. 0.000875
+
+    Block 10 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.004 .. 0.004
+        k : 0.00331659 .. 0.000829148
+
+    Block 11 cell size :
+        i : 0.000435779 .. 0.000435779
+        j : 0.00398478 .. 0.00398478
+        k : 0.00331659 .. 0.000829148
+
+    Block 12 cell size :
+        i : 0.000436298 .. 0.000436298
+        j : 0.00398478 .. 0.00398478
+        k : 0.00331659 .. 0.000829148
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0.00866025 -0.025) (0.2 0.0498097 0.025)
+  nPoints: 40876
+  nCells: 34480
+  nFaces: 109578
+  nInternalFaces: 97302
+----------------
+Patches
+----------------
+  patch 0 (start: 97302 size: 240) name: inlet
+  patch 1 (start: 97542 size: 240) name: outlet
+  patch 2 (start: 97782 size: 880) name: bladeRotor
+  patch 3 (start: 98662 size: 1448) name: shaftRotor
+  patch 4 (start: 100110 size: 1448) name: shroudRotor
+  patch 5 (start: 101558 size: 880) name: bladeStator
+  patch 6 (start: 102438 size: 2000) name: shaftStator
+  patch 7 (start: 104438 size: 2000) name: shroudStator
+  patch 8 (start: 106438 size: 3140) name: frontAndBack
+
+End
+

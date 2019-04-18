@@ -1,0 +1,16 @@
+solid CATIASTL
+ facet normal 0 -0.707107 0.707107
+  outer loop
+   vertex -0.01 0.01 0.01
+   vertex -0.01 0 0
+   vertex 0.01 0.01 0.01
+  endloop
+ endfacet
+ facet normal 0 -0.707107 0.707107
+  outer loop
+   vertex 0.01 0.01 0.01
+   vertex -0.01 0 0
+   vertex 0.01 0 0
+  endloop
+ endfacet
+endsolid CATIASTL

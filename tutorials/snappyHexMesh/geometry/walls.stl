@@ -1,0 +1,58 @@
+solid CATIASTL
+ facet normal 0 0 -1
+  outer loop
+   vertex -0.01 0 0
+   vertex -0.01 0.02 0
+   vertex 0.01 0 0
+  endloop
+ endfacet
+ facet normal 0 0 -1
+  outer loop
+   vertex 0.01 0 0
+   vertex -0.01 0.02 0
+   vertex 0.01 0.02 0
+  endloop
+ endfacet
+ facet normal -0 0.447214 0.894427
+  outer loop
+   vertex -0.01 0.02 0.005
+   vertex -0.01 0.01 0.01
+   vertex 0.01 0.02 0.005
+  endloop
+ endfacet
+ facet normal 0 0.447214 0.894427
+  outer loop
+   vertex 0.01 0.02 0.005
+   vertex -0.01 0.01 0.01
+   vertex 0.01 0.01 0.01
+  endloop
+ endfacet
+ facet normal -1 0 0
+  outer loop
+   vertex -0.01 0 0
+   vertex -0.01 0.01 0.01
+   vertex -0.01 0.02 0
+  endloop
+ endfacet
+ facet normal -1 0 0
+  outer loop
+   vertex -0.01 0.02 0
+   vertex -0.01 0.01 0.01
+   vertex -0.01 0.02 0.005
+  endloop
+ endfacet
+ facet normal -1 0 0
+  outer loop
+   vertex 0.01 0 0
+   vertex 0.01 0.01 0.01
+   vertex 0.01 0.02 0
+  endloop
+ endfacet
+ facet normal -1 0 0
+  outer loop
+   vertex 0.01 0.02 0
+   vertex 0.01 0.01 0.01
+   vertex 0.01 0.02 0.005
+  endloop
+ endfacet
+endsolid CATIASTL
