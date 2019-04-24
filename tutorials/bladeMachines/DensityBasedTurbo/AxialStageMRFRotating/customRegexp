@@ -1,0 +1,33 @@
+Residuals
+{
+  expr "rho L2 Residual: (%f%)";
+  name Residuals;
+  theTitle "Residuals";
+  titles ( "Averaged L2 Rho  Residual" );
+  type regular;
+}
+
+AddRhoUToResiduals
+{
+  expr "rho LInf Residual: (%f%)";
+  titles ( "LInf Rho Residual" );
+  type slave;
+  master Residuals;
+}
+
+Massflows
+{
+  expr "MassFlows:   inlet_0 = (%f%)";
+  name MassFlows;
+  theTitle "MassFlow";
+  titles ( "Inlet mass flow" );
+  type regular;
+}
+
+AddOutletMassflows
+{
+  expr "MassFlows:   outlet_1 = (%f%)";
+  titles ( "Outlet mass flow" );
+  type slave;
+  master Massflows;
+}
