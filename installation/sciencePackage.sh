@@ -15,8 +15,8 @@ gsettings set org.gnome.desktop.screensaver lock-enabled false
 # Samba
 sudo apt-get update
 sudo apt-get install samba <<< "Y"
-sudo smbpasswd -a user
-sudo chown stas /opt <<< "1950"
+sudo smbpasswd -a user <<< "1950"
+sudo chown stas $HOME/
 
 sudo apt-get install gnuplot python-numpy python-scipy python-matplotlib ipython\
 	jupyter-notebook python-pandas python-sympy python-nose <<< "Y" #Python Science Package

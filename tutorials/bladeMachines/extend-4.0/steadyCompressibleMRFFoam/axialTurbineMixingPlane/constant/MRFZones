@@ -18,7 +18,7 @@ FoamFile
 (
     rotor
     {
-        //patches   (rotor);
+        // patches   (rotor);
         // Fixed patches (by default they 'move' with the MRF zone)
         nonRotatingPatches ( RUSHROUD );
 

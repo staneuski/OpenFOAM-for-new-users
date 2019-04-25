@@ -19,7 +19,7 @@ echo "export WM_CXX='g++-5'" >> etc/prefs.sh
 echo "export QT_BIN_DIR=/usr/bin/" >> etc/prefs.sh
 
 # Set the environment variables and add them to initial shell settings
-source etc/bashrc && echo "alias fe40='source \$HOME/foam/foam-extend-4.0/etc/bashrc'" >> $HOME/.bashrc
+source $HOME/foam/foam-extend-4.0/etc/bashrc && echo "alias fe40='source \$HOME/foam/foam-extend-4.0/etc/bashrc'" >> $HOME/.bashrc
 
 # Some debugging to manage compilation
 sed -i -e 's=rpmbuild --define=rpmbuild --define "_build_id_links none" --define=' ThirdParty/tools/makeThirdPartyFunctionsForRPM
@@ -27,8 +27,7 @@ sed -i -e 's/gcc/\$(WM_CC)/' wmake/rules/linux64Gcc/c
 sed -i -e 's/g++/\$(WM_CXX)/' wmake/rules/linux64Gcc/c++
 
 # Compiling OpenFOAM-extend-4.0
-fe40 && ./Allwmake.firstInstall <<< "Y" | tee $HOME/foam/extend-4.0-install.log
+source $HOME/foam/foam-extend-4.0/etc/bashrc && $HOME/foam/foam-extend-4.0/./Allwmake.firstInstall <<< "Y" | tee $HOME/foam/extend-4.0-install.log
 
 # Checking the installation
-cd $HOME/foam/foam-extend-4.0/bin/
-foamInstallationTest | tee -a $HOME/foam/extend-4.0-installationTest.log
+foamInstallationTest | tee -a $HOME/foam/extend-4.0-install.log

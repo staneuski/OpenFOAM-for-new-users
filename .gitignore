@@ -3,8 +3,6 @@ log.*
 
 doc/references/unused/
 
-# Result folders
-
 # extend-4.0
 # steadyCompressibleFoam
 tutorials/bladeMachines/extend-4.0/steadyCompressibleFoam/2bump/100
@@ -297,3 +295,66 @@ tutorials/bladeMachines/extend-4.0/steadyUniversalMRFFoam/axialTurbineMixingPlan
 tutorials/bladeMachines/extend-4.0/steadyUniversalMRFFoam/axialTurbineMixingPlane/160
 tutorials/bladeMachines/extend-4.0/steadyUniversalMRFFoam/axialTurbineMixingPlane/180
 tutorials/bladeMachines/extend-4.0/steadyUniversalMRFFoam/axialTurbineMixingPlane/200
+
+# DensityBasedTurbo
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.1
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.2
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.3
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.4
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.5
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.6
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.7
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.8
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/0.9
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.1
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.2
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.3
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.4
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.5
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.6
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.7
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.8
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/1.9
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.1
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.2
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.3
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.4
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.5
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.6
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.7
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.8
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/2.9
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.1
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.2
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.3
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.4
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.5
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.6
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.7
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.8
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/3.9
+tutorials/bladeMachines/DensityBasedTurbo/forwardStep/4
+
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.01
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.001
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.02
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.002
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.003
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.004
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.005
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.006
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.007
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.008
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.009
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.011
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.012
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.013
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.014
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.015
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.016
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.017
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.018
+tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.019
