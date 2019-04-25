@@ -1,6 +1,7 @@
 #!/bin/bash
 # Personal Ubuntu package: install needed apps
 # Before running add new theme to the termanal by copying the existing one
+# $ bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/sciencePackage.sh)"
 
 # Installing features
 # ~~~~~~~~~~~~~~~~~~~

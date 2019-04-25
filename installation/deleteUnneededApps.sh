@@ -1,5 +1,6 @@
 #!/bin/bash
 # Personal Ubuntu package: delete unneeded apps
+# $ bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/deleteUnneededApps.sh)"
 
 sudo apt remove gnome-mahjongg gnome-mines gnome-sudoku gnome-todo aisleriot cheese  <<< "Y" #default (gnome) games & apps
 sudo apt purge ubuntu-web-launchers <<< "Y" #Amazon & some web-apps
