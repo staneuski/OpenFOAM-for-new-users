@@ -1,7 +1,7 @@
 *.gdoc
 log.*
 
-doc/references/unused/
+doc/references/
 
 # extend-4.0
 # steadyCompressibleFoam
