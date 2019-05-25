@@ -15,7 +15,7 @@
 #
 #------------------------------------------------------------------------------
 
-newSolverName="multiCompression" # name of the new solver
+newSolverName="mySuperSolver" # name of the new solver
 
 donorName="potentialFoam" # name of the copied/donor solver
 
