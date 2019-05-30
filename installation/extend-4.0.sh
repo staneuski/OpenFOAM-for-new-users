@@ -11,7 +11,7 @@ libxt-dev rpm mercurial graphviz python python-dev  gcc-5 g++-5 <<< "Y"
 git clone git://git.code.sf.net/p/foam-extend/foam-extend-4.0 $HOME/foam/foam-extend-4.0
 cd $HOME/foam/foam-extend-4.0/
 
-# Setting some presences
+# Setting some preferences
 echo "export WM_THIRD_PARTY_USE_BISON_27=1" >> etc/prefs.sh
 echo "export QT_SELECT=qt4" >> etc/prefs.sh
 echo "export WM_CC='gcc-5'" >> etc/prefs.sh
