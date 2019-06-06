@@ -1,0 +1,108 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM Extend Project: Open Source CFD        |
+|  \\    /   O peration     | Version:  1.6-ext                               |
+|   \\  /    A nd           | Web:      www.extend-project.de                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 280;
+
+boundaryField
+{
+    inlet_0
+    {
+//         type            fixedValue;
+//         value           uniform 280;
+
+        type      isentropicTotalTemperature;
+        p         p;    // name of pressure field
+        T0        uniform 293;
+        p0        uniform 101325; // pt0
+        value     uniform 280; // initial value
+    }
+
+    outlet_0
+    {
+        type            mixingPlaneEnthalpyJump;
+        patchType       mixingPlane;
+        rotating        false;
+        value           uniform 280;
+    }
+
+    passageSidesUpper_0
+    {
+        type            cyclicGgi;
+    }
+
+    passageSidesLower_0
+    {
+        type            cyclicGgi;
+    }
+
+    hub_0
+    {
+        type            zeroGradient;
+    }
+
+    shroud_0
+    {
+        type            zeroGradient;
+    }
+
+    blade_0
+    {
+        type            zeroGradient;
+    }
+
+    inlet_1
+    {
+        type            mixingPlaneEnthalpyJump;
+        patchType       mixingPlane;
+        rotating        true;
+        value           uniform 280;
+    }
+
+    outlet_1
+    {
+        type            zeroGradient;
+    }
+
+    passageSidesUpper_1
+    {
+        type            cyclicGgi;
+    }
+
+    passageSidesLower_1
+    {
+        type            cyclicGgi;
+    }
+
+    hub_1
+    {
+        type            zeroGradient;
+    }
+
+    shroud_1
+    {
+        type            zeroGradient;
+    }
+
+    blade_1
+    {
+        type            zeroGradient;
+    }
+}
+
+// ************************************************************************* //
