@@ -1,5 +1,5 @@
 # OpenFOAM-for-new-users
-Репозиторий создан для помощи в освонии OpenFOAM незнакомым с этой средой человеком.
+Репозиторий создан для помощи в освонии [OpenFOAM](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/About) незнакомым с этой средой человеком.
 
 ## [doc](https://github.com/StasF1/OpenFOAM-for-new-users/tree/master/doc)
 Файлы, ссылки (в т.ч. и на архив с используемой литературой) и т.д.
