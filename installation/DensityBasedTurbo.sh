@@ -1,5 +1,6 @@
 #!/bin/bash
 # Install DensityBasedTurbo for OpenFOAM-extend-3.0 on Ubuntu 14.04 (https://openfoamwiki.net/index.php/Installation/Linux/foam-extend-3.0)
+# $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/DensityBasedTurbo.sh)"
 
 mkdir -p $FOAM_RUN
 
