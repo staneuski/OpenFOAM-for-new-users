@@ -1,9 +1,31 @@
+# Files
 *.gdoc
+*.pdf
 log.*
+.DS_Store
+.vtk
+.gz
 
-doc/references/
+cellLevel
+cellZones
+faces
+faceZones
+level0Edge
+neighbour
+owner
+pointLevel
+points
+pointZones
+surfaceIndex
 
-# extend-4.0
+# Folders
+save/
+sets/
+VTK/
+
+# ******************************************************************* 
+
+# tutorials/extend-4.0
 # steadyCompressibleFoam
 tutorials/bladeMachines/extend-4.0/steadyCompressibleFoam/2bump/100
 tutorials/bladeMachines/extend-4.0/steadyCompressibleFoam/2bump/200

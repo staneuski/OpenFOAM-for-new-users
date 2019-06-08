@@ -19,35 +19,35 @@ libs
     "liblduSolvers.so"
 )
 
-application     steadyCompressibleMRFFoam;
+application     	steadyCompressibleMRFFoam;
 
-startFrom       startTime;
+startFrom       	startTime;
 
-startTime       0;
+startTime       	0;
 
-stopAt          endTime;
+stopAt          	endTime;
 
-endTime			500;
+endTime				500;
 
-deltaT          1;
+deltaT          	1;
 
-writeControl    timeStep;
+writeControl    	timeStep;
 
-writeInterval   25;
+writeInterval   	25;
 
-purgeWrite      0;
+purgeWrite      	0;
 
-writeFormat     ascii;
+writeFormat     	ascii;
 
-writePrecision  12;
+writePrecision  	12;
 
-writeCompression compressed;
+writeCompression 	compressed;
 
-timeFormat      general;
+timeFormat      	general;
 
-timePrecision   6;
+timePrecision   	6;
 
-runTimeModifiable yes;
+runTimeModifiable 	yes;
 //libs    ("libjumpFiniteVolume.so");
 
 // Compute the flux value on each side of a GGI interface
@@ -58,7 +58,7 @@ functions
         // Type of functionObject
         type ggiCheck;
 
-        phi phi;
+        phi		phi;
 
         // Where to load it from (if not already in solver)
         functionObjectLibs ("libcheckFunctionObjects.so");
@@ -69,7 +69,7 @@ functions
         // Type of functionObject
         type mixingPlaneCheck;
 
-        phi                     phi;
+        phi		phi;
 
         // Where to load it from (if not already in solver)
         functionObjectLibs ("libcheckFunctionObjects.so");
