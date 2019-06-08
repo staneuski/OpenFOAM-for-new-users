@@ -1,10 +1,10 @@
 # Files
 *.gdoc
 *.pdf
+*.DS_Store
+*.vtk
+*.gz
 log.*
-.DS_Store
-.vtk
-.gz
 
 cellLevel
 cellZones
@@ -380,3 +380,4 @@ tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.016
 tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.017
 tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.018
 tutorials/bladeMachines/DensityBasedTurbo/bumpMinf0675/0.019
+tutorials/bladeMachines/extend-4.0/steadyCompressibleFoam/transonicBump/constant/polyMesh/points.gz
