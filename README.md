@@ -5,7 +5,7 @@
 
 ---
 # Structure
-```ignore
+```
 OpenFOAM-for-new-users-0.1-beta
 ├── doc
 │   ├── images
