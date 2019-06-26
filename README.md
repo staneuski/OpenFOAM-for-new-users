@@ -27,7 +27,7 @@ OpenFOAM-for-new-users-0.1-beta
     │   │   └── forwardStep
     │   └── extend-4.0
     │       ├── steadyCompressibleFoam
-    │       │	├──2bump
+    │       │	├── 2bump
     │       │	└── transonicBump
     │       ├── steadyCompressibleMRFFoam
     │       │	├── axialRotorStatorMRF
