@@ -7,7 +7,15 @@
 # Install requied software
 apt-get install git-core build-essential binutils-dev cmake flex \ #bison # 2.* required!
 zlib1g-dev qt4-dev-tools libqt4-dev libncurses5-dev libiberty-dev \
-libxt-dev rpm mercurial graphviz python python-dev gcc-4.8 g++-4.8 <<< "Y"
+libxt-dev rpm mercurial graphviz python python-dev gcc-4.8 g++-4.8 \
+libopenmpi-dev hwloc <<< "Y"
+
+# Install missing packages
+cd $HOME/Downloads
+wget http://launchpadlibrarian.net/206369988/libtorque2_2.4.16+dfsg-1+deb7u4build0.12.04.1_amd64.deb
+dpkg -i ./libtorque2_2.4.16+dfsg-1+deb7u4build0.12.04.1_amd64.deb
+wget http://launchpadlibrarian.net/98818877/libopenmpi1.3_1.4.3-2.1ubuntu3_amd64.deb
+dpkg -i ./libopenmpi1.3_1.4.3-2.1ubuntu3_amd64.deb
 
 # Create an additional link
 ln -s /usr/bin/make /usr/bin/gmake
