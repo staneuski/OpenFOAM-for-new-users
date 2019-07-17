@@ -1,7 +1,8 @@
 #!/bin/bash
 # OpenFOAM-extend-3.0 for Ubuntu 18.04 (https://openfoamwiki.net/index.php/Installation/Linux/foam-extend-3.0#Installing_from_source_code)
 # to install correct (https://openfoamwiki.net/index.php/Installation/Linux/foam-extend-3.0/Ubuntu#Ubuntu_14.04)
-# $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/extend-3.0.sh)"
+
+# $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/extend-v3.sh)"
 
 
 # Install requied software
