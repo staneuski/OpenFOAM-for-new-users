@@ -21,7 +21,7 @@ OpenFOAM-for-new-users-0.1-beta
 │   │   ├── smoothingInParaView
 │   │   └── snappyHexMesh
 │   └── references
-├── etc # скрипты устанавливающие OpenFOAM (от v5.x до v7), его расширенные версии и дополнения
+├── etc # скрипты устанавливающие OpenFOAM (от v4.x до v7), его расширенные версии и дополнения
 └── tutorials # обучающие проекты, описание которых можно найти в Wiki репозитория
     ├── bladeMachines
     │   ├── DensityBasedTurbo # требует дополнения DensityBasedTurbo к 1.6-ext или extend-4.0
