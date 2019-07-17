@@ -1,7 +1,7 @@
 #!/bin/bash
 # OpenFOAM-extend-4.0 for Ubuntu 18.04 (https://openfoamwiki.net/index.php/Installation/Linux/foam-extend-4.0)
 # to install correct (https://openfoamwiki.net/index.php/Installation/Linux/foam-extend-4.0#Installing_from_source_code)
-# $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/extend-v4.sh)"
+# $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/etc/extend-v4.sh)"
 
 # Install requied software
 apt-get install git-core build-essential binutils-dev cmake flex \

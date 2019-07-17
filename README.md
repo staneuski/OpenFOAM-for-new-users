@@ -10,7 +10,7 @@
 # [История версий](https://github.com/StasF1/dualFuelEngine/releases)
 | Версия | Описание | Скачать архив 📥 |
 |-------:|----------|------------------|
-| [v0.1-beta](https://github.com/StasF1/OpenFOAM-for-new-users/tree/v0.1-beta) | Созданы проекты *bladeMachines*/, *cloneExistingSolver/*, *snappyHexMesh*/ | [.tar.gz](https://github.com/StasF1/OpenFOAM-for-new-users/archive/v0.1-beta.tar.gz), [.zip](https://github.com/StasF1/OpenFOAM-for-new-users/archive/v0.1-beta.zip) |
+| [v0.1-beta](https://github.com/StasF1/OpenFOAM-for-new-users/tree/v0.1.1-beta) | Созданы проекты *bladeMachines*/, *cloneExistingSolver/*, *snappyHexMesh*/ | [.tar.gz](https://github.com/StasF1/OpenFOAM-for-new-users/archive/v0.1.1-beta.tar.gz), [.zip](https://github.com/StasF1/OpenFOAM-for-new-users/archive/v0.1.1-beta.zip) |
 
 # Структура
 ```gitignore
@@ -21,8 +21,8 @@ OpenFOAM-for-new-users-0.1-beta
 │   │   ├── smoothingInParaView
 │   │   └── snappyHexMesh
 │   └── references
-├── installation # скрипты устанавливающие OpenFOAM (v5-v7), его расширенные версии и дополнения
-└── tutorials    # обучающие проекты, описание которых можно найти в Wiki репозитория
+├── etc # скрипты устанавливающие OpenFOAM (от v5.x до v7), его расширенные версии и дополнения
+└── tutorials # обучающие проекты, описание которых можно найти в Wiki репозитория
     ├── bladeMachines
     │   ├── DensityBasedTurbo # требует дополнения DensityBasedTurbo к 1.6-ext или extend-4.0
     │   │   ├── AxialMixerMRFCHTSteadyState

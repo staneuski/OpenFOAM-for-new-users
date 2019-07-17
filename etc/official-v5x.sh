@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# OpenFOAM v5.x (https://openfoam.org/download/5-0-ubuntu/)
 
-#$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/installation/official-v5.sh)"
+#$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/StasF1/OpenFOAM-for-new-users/master/etc/official-v5.sh)"
 
 # Add dl.openfoam.org to the list of software repositories
 sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -"
