@@ -1,11 +1,14 @@
-# Описание OpenFOAM-for-new-users
+# Об OpenFOAM-for-new-users
 Репозиторий создан для помощи в освоении [OpenFOAM](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/About) незнакомым с этой средой человеком.
 
-Обучающие кейсы можно найти в [**OpenFOAM-for-new-users.Wiki**](https://github.com/StasF1/OpenFOAM-for-new-users/wiki) – вики данного репозитория.
+Обучающие кейсы можно найти в [**OpenFOAM-for-new-users.Wiki**](https://github.com/StasF1/OpenFOAM-for-new-users/wiki)
 
 # Требования
-- [OpenFOAM v6](https://openfoam.org/download/) (для большинства проектов)
-- [OpenFOAM-extend-3.0](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Extend#openfoam-extend-30) с установленными [DensityBasedTurbo](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Additions#densitybasedturbo) и [OpenFOAM-extend-4.0](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Extend#openfoam-extend-40) и (для проекта [_bladeMachines/_](https://github.com/StasF1/OpenFOAM-for-new-users/tree/master/tutorials/bladeMachines))
+- [OpenFOAM v4.x или v5.x](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Official) для проекта [_snappyHexMesh/_](https://github.com/StasF1/OpenFOAM-for-new-users/tree/master/tutorials/snappyHexMesh)
+- [OpenFOAM v6 и выше](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Official) для остальных проектов
+- Для проекта [_bladeMachines/_](https://github.com/StasF1/OpenFOAM-for-new-users/tree/master/tutorials/bladeMachines):
+	+ Дополнение [DensityBasedTurbo](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Additions#densitybasedturbo) к [OpenFOAM-extend-3.0](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Extend#openfoam-extend-30) или [OpenFOAM-1.6-ext](https://openfoamwiki.net/index.php/Installation/Linux/OpenFOAM-1.6-ext)
+	+ [OpenFOAM-extend-4.0](https://github.com/StasF1/OpenFOAM-for-new-users/wiki/%5Binstall%5D-Extend#openfoam-extend-40) 
 
 # [История версий](https://github.com/StasF1/dualFuelEngine/releases)
 | Версия | Описание | Скачать архив 📥 |
