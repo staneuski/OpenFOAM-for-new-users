@@ -10,6 +10,7 @@ face*
 
 # Folders - anywhere
 0.*/
+!0.sav/
 [1-9]*
 polyMesh/
 triSurface/
