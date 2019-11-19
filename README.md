@@ -18,12 +18,6 @@
 # Структура
 ```gitignore
 OpenFOAM-for-new-users-0.1-beta
-├── doc # файлы, ссылки и проч.
-│   ├── images
-│   │   ├── bladeMachines
-│   │   ├── smoothingInParaView
-│   │   └── snappyHexMesh
-│   └── references
 ├── etc # скрипты устанавливающие OpenFOAM (от v4.x до v7), его расширенные версии и дополнения
 └── tutorials # обучающие проекты, описание которых можно найти в Wiki репозитория
     ├── bladeMachines
