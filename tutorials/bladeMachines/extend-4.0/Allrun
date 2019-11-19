@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd ${0%/*} || exit 1 # Run from this directory
+
+cd steadyCompressibleFoam/
+cd 2bump            && ./Allrun || log.steadyCompressibleFoam
+cd ../transonicBump && ./Allrun || log.steadyCompressibleFoam
+
+cd ../../steadyCompressibleMRFFoam/
+cd bentRotorStator/            && ./Allrun || log.steadyCompressibleMRFFoam
+cd ../simpleRotorStator/       && ./Allrun || log.steadyCompressibleMRFFoam
+cd ../axialTurbineMixingPlane/ && ./Allrun || log.steadyCompressibleMRFFoam
+# cd ../axialRotorStatorMRF/     && ./Allrun || log.steadyCompressibleMRFFoam
+
+cd ../../steadyCompressibleSRFFoam/
+cd bentBlade/      && ./Allrun || log.steadyCompressibleSRFFoam
+cd ../simpleBlade/ && ./Allrun || log.steadyCompressibleSRFFoam
+
+cd ../../steadyUniversalMRFFoam
+cd axialTurbineGgiJump/        && ./Allrun || log.steadyUniversalMRFFoam
+cd ../axialTurbineMixingPlane/ && ./Allrun || log.steadyUniversalMRFFoam
+
+
